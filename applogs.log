@@ -1,0 +1,465 @@
+2023-05-03T13:31:59.167+05:30  INFO 2236 --- [restartedMain] com.pms.G2SpringApiGatewayApplication    : Starting G2SpringApiGatewayApplication using Java 17.0.6 with PID 2236 (C:\Users\kushw\Documents\g2-local-backend-services\g2-api-gateway-service\target\classes started by kushw in C:\Users\kushw\Documents\g2-local-backend-services\g2-api-gateway-service)
+2023-05-03T13:31:59.176+05:30  INFO 2236 --- [restartedMain] com.pms.G2SpringApiGatewayApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-05-03T13:31:59.288+05:30  INFO 2236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-03T13:32:01.330+05:30  INFO 2236 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=48fac4a4-3b7f-3b0c-8508-f935501bf6ed
+2023-05-03T13:32:01.630+05:30  INFO 2236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-03T13:32:01.635+05:30  INFO 2236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-03T13:32:01.641+05:30  INFO 2236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-03T13:32:04.091+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-05-03T13:32:04.091+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-05-03T13:32:04.092+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-05-03T13:32:04.092+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-05-03T13:32:04.093+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-05-03T13:32:04.093+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-05-03T13:32:04.093+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-05-03T13:32:04.093+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-05-03T13:32:04.093+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-05-03T13:32:04.093+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-05-03T13:32:04.093+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-05-03T13:32:04.094+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-05-03T13:32:04.094+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-05-03T13:32:04.094+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-05-03T13:32:05.041+05:30  INFO 2236 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 32 endpoint(s) beneath base path '/actuator'
+2023-05-03T13:32:05.768+05:30  WARN 2236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-05-03T13:32:05.957+05:30  WARN 2236 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-05-03T13:32:06.348+05:30  INFO 2236 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9001
+2023-05-03T13:32:06.353+05:30  INFO 2236 --- [restartedMain] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='g2-api-gateway-service-9001', name='g2-api-gateway-service', tags=[], address='DESKTOP-RG9A2JG', meta={secure=false}, port=9001, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='12s', ttl='null', http='http://DESKTOP-RG9A2JG:9001/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+2023-05-03T13:32:06.846+05:30  INFO 2236 --- [restartedMain] com.pms.G2SpringApiGatewayApplication    : Started G2SpringApiGatewayApplication in 8.39 seconds (process running for 9.585)
+2023-05-03T14:05:40.742+05:30 ERROR 2236 --- [parallel-1] a.w.r.e.AbstractErrorWebExceptionHandler : [281990f6-169]  500 Server Error for HTTP POST "/authentication-service/login"
+
+java.lang.IllegalArgumentException: Actual request scheme must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:204) ~[spring-core-6.0.6.jar:6.0.6]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerHttpObservationFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/authentication-service/login" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.springframework.util.Assert.notNull(Assert.java:204) ~[spring-core-6.0.6.jar:6.0.6]
+		at org.springframework.web.cors.reactive.CorsUtils.isSameOrigin(CorsUtils.java:81) ~[spring-web-6.0.6.jar:6.0.6]
+		at org.springframework.web.cors.reactive.CorsUtils.isCorsRequest(CorsUtils.java:44) ~[spring-web-6.0.6.jar:6.0.6]
+		at org.springframework.web.cors.reactive.DefaultCorsProcessor.process(DefaultCorsProcessor.java:74) ~[spring-web-6.0.6.jar:6.0.6]
+		at org.springframework.web.reactive.handler.AbstractHandlerMapping.lambda$getHandler$1(AbstractHandlerMapping.java:200) ~[spring-webflux-6.0.6.jar:6.0.6]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:113) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:206) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerComplete(FluxConcatMapNoPrefetch.java:274) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onComplete(FluxConcatMap.java:887) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:85) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:209) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:238) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:82) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onComplete(MonoFlatMap.java:189) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onComplete(MonoNext.java:102) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onComplete(FluxConcatMapNoPrefetch.java:240) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onComplete(FluxDematerialize.java:121) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:91) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerComplete(FluxConcatMapNoPrefetch.java:274) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onComplete(FluxConcatMap.java:887) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2205) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:299) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:141) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:182) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.request(MonoFlatMap.java:194) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onError(MonoPeekTerminal.java:258) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28) ~[reactor-core-3.5.3.jar:3.5.3]
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+		at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-05-03T14:06:09.352+05:30 ERROR 2236 --- [parallel-4] a.w.r.e.AbstractErrorWebExceptionHandler : [8ad9691d-174]  500 Server Error for HTTP GET "/appointment-service/appointments"
+
+java.lang.IllegalArgumentException: Actual request scheme must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:204) ~[spring-core-6.0.6.jar:6.0.6]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerHttpObservationFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/appointment-service/appointments" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.springframework.util.Assert.notNull(Assert.java:204) ~[spring-core-6.0.6.jar:6.0.6]
+		at org.springframework.web.cors.reactive.CorsUtils.isSameOrigin(CorsUtils.java:81) ~[spring-web-6.0.6.jar:6.0.6]
+		at org.springframework.web.cors.reactive.CorsUtils.isCorsRequest(CorsUtils.java:44) ~[spring-web-6.0.6.jar:6.0.6]
+		at org.springframework.web.cors.reactive.DefaultCorsProcessor.process(DefaultCorsProcessor.java:74) ~[spring-web-6.0.6.jar:6.0.6]
+		at org.springframework.web.reactive.handler.AbstractHandlerMapping.lambda$getHandler$1(AbstractHandlerMapping.java:200) ~[spring-webflux-6.0.6.jar:6.0.6]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:113) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onError(MonoPeekTerminal.java:258) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28) ~[reactor-core-3.5.3.jar:3.5.3]
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+		at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-05-03T14:09:13.612+05:30 ERROR 2236 --- [parallel-2] a.w.r.e.AbstractErrorWebExceptionHandler : [9e5a8ed8-195]  500 Server Error for HTTP GET "/physician-availability-service/physician-availability"
+
+java.lang.IllegalArgumentException: Actual request scheme must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:204) ~[spring-core-6.0.6.jar:6.0.6]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerHttpObservationFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/physician-availability-service/physician-availability" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.springframework.util.Assert.notNull(Assert.java:204) ~[spring-core-6.0.6.jar:6.0.6]
+		at org.springframework.web.cors.reactive.CorsUtils.isSameOrigin(CorsUtils.java:81) ~[spring-web-6.0.6.jar:6.0.6]
+		at org.springframework.web.cors.reactive.CorsUtils.isCorsRequest(CorsUtils.java:44) ~[spring-web-6.0.6.jar:6.0.6]
+		at org.springframework.web.cors.reactive.DefaultCorsProcessor.process(DefaultCorsProcessor.java:74) ~[spring-web-6.0.6.jar:6.0.6]
+		at org.springframework.web.reactive.handler.AbstractHandlerMapping.lambda$getHandler$1(AbstractHandlerMapping.java:200) ~[spring-webflux-6.0.6.jar:6.0.6]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:113) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2545) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2305) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2215) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onError(MonoPeekTerminal.java:258) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.handleTimeout(FluxTimeout.java:295) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.doTimeout(FluxTimeout.java:280) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxTimeout$TimeoutTimeoutSubscriber.onNext(FluxTimeout.java:419) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.propagateDelay(MonoDelay.java:271) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoDelay$MonoDelayRunnable.run(MonoDelay.java:286) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28) ~[reactor-core-3.5.3.jar:3.5.3]
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+		at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-05-03T14:47:22.943+05:30  INFO 2236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-05-03T14:47:23.109+05:30  INFO 2236 --- [Thread-1] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: g2-api-gateway-service-9001
+2023-05-03T14:47:25.741+05:30  INFO 2236 --- [restartedMain] com.pms.G2SpringApiGatewayApplication    : Starting G2SpringApiGatewayApplication using Java 17.0.6 with PID 2236 (C:\Users\kushw\Documents\g2-local-backend-services\g2-api-gateway-service\target\classes started by kushw in C:\Users\kushw\Documents\g2-local-backend-services\g2-api-gateway-service)
+2023-05-03T14:47:25.741+05:30  INFO 2236 --- [restartedMain] com.pms.G2SpringApiGatewayApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-05-03T14:47:26.516+05:30  INFO 2236 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=48fac4a4-3b7f-3b0c-8508-f935501bf6ed
+2023-05-03T14:47:26.561+05:30  INFO 2236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-03T14:47:26.564+05:30  INFO 2236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-03T14:47:26.568+05:30  INFO 2236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-03T14:47:28.017+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-05-03T14:47:28.017+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-05-03T14:47:28.017+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-05-03T14:47:28.017+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-05-03T14:47:28.017+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-05-03T14:47:28.017+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-05-03T14:47:28.018+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-05-03T14:47:28.018+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-05-03T14:47:28.018+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-05-03T14:47:28.018+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-05-03T14:47:28.018+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-05-03T14:47:28.018+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-05-03T14:47:28.018+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-05-03T14:47:28.018+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-05-03T14:47:29.204+05:30  INFO 2236 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 32 endpoint(s) beneath base path '/actuator'
+2023-05-03T14:47:29.811+05:30  WARN 2236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-05-03T14:47:29.970+05:30  WARN 2236 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-05-03T14:47:30.034+05:30  INFO 2236 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9001
+2023-05-03T14:47:30.039+05:30  INFO 2236 --- [restartedMain] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='g2-api-gateway-service-9001', name='g2-api-gateway-service', tags=[], address='DESKTOP-RG9A2JG', meta={secure=false}, port=9001, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='12s', ttl='null', http='http://DESKTOP-RG9A2JG:9001/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+2023-05-03T14:47:30.413+05:30  INFO 2236 --- [restartedMain] com.pms.G2SpringApiGatewayApplication    : Started G2SpringApiGatewayApplication in 4.877 seconds (process running for 4533.152)
+2023-05-03T14:47:30.421+05:30  INFO 2236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-03T14:47:43.435+05:30  INFO 2236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-03T14:47:43.444+05:30  INFO 2236 --- [Thread-16] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: g2-api-gateway-service-9001
+2023-05-03T14:47:43.521+05:30 ERROR 2236 --- [boundedElastic-137] o.s.c.gateway.route.CachingRouteLocator  : Refresh routes error !!!
+
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'defaultValidator': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.getIfAvailable(DefaultListableBeanFactory.java:2044) ~[spring-beans-6.0.6.jar:6.0.6]
+	at org.springframework.cloud.gateway.support.ConfigurationService$ConfigurableBuilder.doBind(ConfigurationService.java:150) ~[spring-cloud-gateway-server-4.0.1.jar:4.0.1]
+	at org.springframework.cloud.gateway.support.ConfigurationService$AbstractBuilder.bind(ConfigurationService.java:244) ~[spring-cloud-gateway-server-4.0.1.jar:4.0.1]
+	at org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator.loadGatewayFilters(RouteDefinitionRouteLocator.java:145) ~[spring-cloud-gateway-server-4.0.1.jar:4.0.1]
+	at org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator.getFilters(RouteDefinitionRouteLocator.java:172) ~[spring-cloud-gateway-server-4.0.1.jar:4.0.1]
+	at org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator.convertToRoute(RouteDefinitionRouteLocator.java:118) ~[spring-cloud-gateway-server-4.0.1.jar:4.0.1]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.tryEmitScalar(FluxFlatMap.java:489) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:422) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.drain(FluxMergeSequential.java:432) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.innerNext(FluxMergeSequential.java:304) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialInner.onNext(FluxMergeSequential.java:571) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:250) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onSubscribeInner(MonoFlatMapMany.java:150) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onSubscribe(MonoFlatMapMany.java:245) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8671) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onNext(MonoFlatMapMany.java:195) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2071) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onComplete(FluxFilter.java:166) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:847) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:609) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drain(FluxFlatMap.java:589) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onComplete(FluxFlatMap.java:466) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onComplete(FluxFilter.java:166) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:847) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:609) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.innerComplete(FluxFlatMap.java:895) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxFlatMap$FlatMapInner.onComplete(FluxFlatMap.java:998) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2072) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:118) ~[reactor-core-3.5.3.jar:3.5.3]
+	at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$FirstNonEmptyEmittingSubscriber.onComplete(FluxFirstNonEmptyEmitting.java:325) ~[spring-cloud-commons-4.0.1.jar:4.0.1]
+	at reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.onComplete(FluxSubscribeOn.java:166) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2205) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.fastPath(FluxIterable.java:424) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:291) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2341) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onSubscribe(FluxOnErrorResume.java:74) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.publisher.FluxSubscribeOn$SubscribeOnSubscriber.run(FluxSubscribeOn.java:194) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84) ~[reactor-core-3.5.3.jar:3.5.3]
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37) ~[reactor-core-3.5.3.jar:3.5.3]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-05-03T14:47:45.821+05:30  INFO 2236 --- [restartedMain] com.pms.G2SpringApiGatewayApplication    : Starting G2SpringApiGatewayApplication using Java 17.0.6 with PID 2236 (C:\Users\kushw\Documents\g2-local-backend-services\g2-api-gateway-service\target\classes started by kushw in C:\Users\kushw\Documents\g2-local-backend-services\g2-api-gateway-service)
+2023-05-03T14:47:45.822+05:30  INFO 2236 --- [restartedMain] com.pms.G2SpringApiGatewayApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-05-03T14:47:46.231+05:30  INFO 2236 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=48fac4a4-3b7f-3b0c-8508-f935501bf6ed
+2023-05-03T14:47:46.269+05:30  INFO 2236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-03T14:47:46.272+05:30  INFO 2236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-03T14:47:46.274+05:30  INFO 2236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-03T14:47:47.636+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-05-03T14:47:47.636+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-05-03T14:47:47.636+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-05-03T14:47:47.636+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-05-03T14:47:47.636+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-05-03T14:47:47.637+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-05-03T14:47:47.637+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-05-03T14:47:47.637+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-05-03T14:47:47.637+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-05-03T14:47:47.637+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-05-03T14:47:47.637+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-05-03T14:47:47.637+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-05-03T14:47:47.638+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-05-03T14:47:47.638+05:30  INFO 2236 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-05-03T14:47:48.312+05:30  INFO 2236 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 32 endpoint(s) beneath base path '/actuator'
+2023-05-03T14:47:48.778+05:30  WARN 2236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-05-03T14:47:48.907+05:30  WARN 2236 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-05-03T14:47:48.965+05:30  INFO 2236 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9001
+2023-05-03T14:47:48.973+05:30  INFO 2236 --- [restartedMain] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='g2-api-gateway-service-9001', name='g2-api-gateway-service', tags=[], address='DESKTOP-RG9A2JG', meta={secure=false}, port=9001, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='12s', ttl='null', http='http://DESKTOP-RG9A2JG:9001/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+2023-05-03T14:47:49.349+05:30  INFO 2236 --- [restartedMain] com.pms.G2SpringApiGatewayApplication    : Started G2SpringApiGatewayApplication in 3.693 seconds (process running for 4552.088)
+2023-05-03T14:47:49.354+05:30  INFO 2236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-03T15:34:09.737+05:30  INFO 2236 --- [catalogWatchTaskScheduler-1] o.apache.http.impl.execchain.RetryExec   : I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:8500: An established connection was aborted by the software in your host machine
+2023-05-03T15:34:09.757+05:30  INFO 2236 --- [catalogWatchTaskScheduler-1] o.apache.http.impl.execchain.RetryExec   : Retrying request to {}->http://localhost:8500
+2023-05-03T15:34:09.799+05:30 ERROR 2236 --- [catalogWatchTaskScheduler-1] o.s.c.c.discovery.ConsulDiscoveryClient  : Error watching Consul CatalogServices
+
+com.ecwid.consul.transport.TransportException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:83) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.transport.AbstractHttpTransport.makeGetRequest(AbstractHttpTransport.java:36) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.v1.ConsulRawClient.makeGetRequest(ConsulRawClient.java:139) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.v1.catalog.CatalogConsulClient.getCatalogServices(CatalogConsulClient.java:143) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.v1.ConsulClient.getCatalogServices(ConsulClient.java:400) ~[consul-api-1.4.5.jar:na]
+	at org.springframework.cloud.consul.discovery.ConsulCatalogWatch.catalogServicesWatch(ConsulCatalogWatch.java:130) ~[spring-cloud-consul-discovery-4.0.1.jar:4.0.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.0.6.jar:6.0.6]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:221) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:165) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:140) ~[httpclient-4.5.14.jar:4.5.14]
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:70) ~[consul-api-1.4.5.jar:na]
+	... 12 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[httpclient-4.5.14.jar:4.5.14]
+	... 24 common frames omitted
+
+2023-05-03T15:34:10.841+05:30 ERROR 2236 --- [catalogWatchTaskScheduler-1] o.s.c.c.discovery.ConsulDiscoveryClient  : Error watching Consul CatalogServices
+
+com.ecwid.consul.transport.TransportException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:83) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.transport.AbstractHttpTransport.makeGetRequest(AbstractHttpTransport.java:36) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.v1.ConsulRawClient.makeGetRequest(ConsulRawClient.java:139) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.v1.catalog.CatalogConsulClient.getCatalogServices(CatalogConsulClient.java:143) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.v1.ConsulClient.getCatalogServices(ConsulClient.java:400) ~[consul-api-1.4.5.jar:na]
+	at org.springframework.cloud.consul.discovery.ConsulCatalogWatch.catalogServicesWatch(ConsulCatalogWatch.java:130) ~[spring-cloud-consul-discovery-4.0.1.jar:4.0.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.0.6.jar:6.0.6]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:221) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:165) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:140) ~[httpclient-4.5.14.jar:4.5.14]
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:70) ~[consul-api-1.4.5.jar:na]
+	... 12 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[httpclient-4.5.14.jar:4.5.14]
+	... 24 common frames omitted
+
+2023-05-03T15:34:11.911+05:30 ERROR 2236 --- [catalogWatchTaskScheduler-1] o.s.c.c.discovery.ConsulDiscoveryClient  : Error watching Consul CatalogServices
+
+com.ecwid.consul.transport.TransportException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:83) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.transport.AbstractHttpTransport.makeGetRequest(AbstractHttpTransport.java:36) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.v1.ConsulRawClient.makeGetRequest(ConsulRawClient.java:139) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.v1.catalog.CatalogConsulClient.getCatalogServices(CatalogConsulClient.java:143) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.v1.ConsulClient.getCatalogServices(ConsulClient.java:400) ~[consul-api-1.4.5.jar:na]
+	at org.springframework.cloud.consul.discovery.ConsulCatalogWatch.catalogServicesWatch(ConsulCatalogWatch.java:130) ~[spring-cloud-consul-discovery-4.0.1.jar:4.0.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.0.6.jar:6.0.6]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:221) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:165) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:140) ~[httpclient-4.5.14.jar:4.5.14]
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:70) ~[consul-api-1.4.5.jar:na]
+	... 12 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[httpclient-4.5.14.jar:4.5.14]
+	... 24 common frames omitted
+
+2023-05-03T15:34:12.262+05:30  INFO 2236 --- [RMI TCP Connection(138)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-05-03T15:34:12.327+05:30  INFO 2236 --- [RMI TCP Connection(138)-127.0.0.1] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: g2-api-gateway-service-9001
+2023-05-03T15:34:12.356+05:30  WARN 2236 --- [RMI TCP Connection(138)-127.0.0.1] .s.c.a.CommonAnnotationBeanPostProcessor : Destroy method on bean with name 'consulAutoServiceRegistration' threw an exception: com.ecwid.consul.transport.TransportException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
